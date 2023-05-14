@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(#fff8db, #fae38c);
+}
+
+.login-interface {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 30px;
+  background-color: white;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70px;
+  font-size: 25px;
+  font-family: roboto;
+  padding: 140px;
+  margin: 30px;
+}
+
+.btn {
+  color: whitesmoke;
+  font-weight: 900;
+  font-family: Serif;
+  font-style: bold;
+  font-size: 24px;
+  border-radius: 15px;
+  font-style: bold;
+  border: none;
+  padding: 20px;
+  margin: 13px;
+  background-image: radial-gradient(#616f5b, #61185b);
+}
+
+.input-field {
+  color: rgb(250, 250, 229);
+  font-weight: 800;
+  font-size: 25px;
+  background-color: #b19ce6;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 13px;
+}
+
+.solo {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.make-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+  font-size: 25px;
+  font-family: roboto;
+  padding: 140px;
+  margin: 30px;
+}
+
+.errorMsg {
+  color: red;
+}
+.heading {
+  text-shadow: white;
+  text-align: center;
+  font-family: roboto;
+  font-weight: 800;
+  color: #183b56;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.textContainer {
+  border-radius: 1px 30px 1px 30px;
+  border: 2px solid black;
+  font-size: 15px;
+  font-family: roboto;
+  color: black;
+  background-color: white;
+  margin-top: 8px;
+  width: 45%;
+  text-align: center;
+  padding: 15px;
+}
+.home-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: san-serif;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 900;
+  align-self: center;
+}
+
+.first-part {
+  color: red;
+}
+.second-part {
+  color: blue;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.post-box {
+  border: none;
+  border-radius: 0px 50px 0px 50px;
+  width: 50%;
+  min-height: 250px;
+  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: white;
+  word-wrap: break-word;
+}
+.postdis {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #808080;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.userName {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+}
+.underline {
+  border: 3px solid black;
+  border-radius: 10;
+}
+
+.top-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.userprofile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.crtpost {
+  position: fixed;
+  right: 0;
+}
+
+.image-con {
+  width: 95%;
+  min-height: 350%;
+}
+.firstLetter {
+  background-color: #616f5b;
+  color: orange;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  border-radius: 300px;
+  padding-left: 17px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.name-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+.msgToUser {
+  color: blue;
+  font-family: roboto;
+  font-size: 20px;
+}
+
+.postedAt {
+  color: #616f5b;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px; 
+  left: 0;
+}
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 800;
+  color: #1d392a;
+}
+.title-container{
+    width: 45%;
+    height: 28%;
+    padding: 10px;
+    font-size: 25px;
+}
